@@ -31,8 +31,6 @@ theme.palette = {
 theme.reversePalette = reversePalette(theme.palette)
 
 
-
-
 injectGlobal`
   @font-face {
     font-family: 'Graphik-Bold-Web';
