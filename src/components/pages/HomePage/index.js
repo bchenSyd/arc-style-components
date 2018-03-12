@@ -23,6 +23,10 @@ const DivEgyp = styled.div`
 const DivEgypIt = styled.div`
    font-family: GuardianEgyp-Light-It-Web;
 `
+
+const DivPrimary = styled.div`
+   font-family: ${font('primary')};
+`
 const HomePage = () => {
   return (
     <Wrapper>
@@ -30,6 +34,8 @@ const HomePage = () => {
       <DivBold>Graphik-Bold-Web</DivBold>
       <DivEgyp> GuardianEgyp-Light-Web</DivEgyp>
       <DivEgypIt> GuardianEgyp-Light-It-Web</DivEgypIt>
+
+      <DivPrimary> Primary font </DivPrimary>
     </Wrapper>
   )
 }
